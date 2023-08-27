@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body{
+      background-color: rgb(28, 139, 94);
+    }
+    .big{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height:80vh;
+    }
+    .painting2{
+      border: 10px solid black;
+      padding: 50px;
+      background-color: white;
+      box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.728);
+    }
+    .painting{
+      display:grid;
+      grid-template-columns: repeat(12, 20px);
+      grid-template-rows: repeat(12, 20px);
+      background-color: antiquewhite;
+    }
+    .red1{
+      background-color: red;
+      grid-area: 10/5/11/9;
+    }
+    .red2{
+      background-color: red;
+      grid-area: 9/4/10/5;
+    }
+    .red3{
+      background-color:red;
+      grid-area: 9/9/10/10;
+    }
+    .blue{
+      background-color: blue;
+      grid-area: 5/4/6/5;
+    }
+    .blue2{
+      background-color: blue;
+      grid-area: 5/9/6/10;
+    }
+    .white{
+      background-color: white;
+      grid-area: 4/3/5/6;
+    }
+    .white2{
+      background-color: white;
+      grid-area: 4/8/5/11;
+    }
+    .black{
+      background-color: rgb(63, 58, 58);
+      grid-area: 7/6/8/8;
+    }
+    .ear{
+      background-color: white;
+      grid-area: 1/1/2/2;
+    }
+    .ear2{
+      background-color: white;
+      grid-area: 1/5/2/9;
+    }
+    .ear3{
+      background-color: white;
+      grid-area: 1/12/2/13
+    }
+    .name{
+      background-color: rgb(3, 158, 3);
+      margin-top: 50px;
+      border:10px solid rgb(3, 158, 3);
+      font-size: large;
+      font-weight: bold;
+      box-shadow: 6px 6px 6px;
+    }
+
+
+    
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <div class="big">
+    <div class="painting2">
+    <div class="painting">
+      <div class="red1"></div>
+      <div class="red2"></div>
+      <div class="red3"></div>
+      <div class="blue"></div>
+      <div class="blue2"></div>
+      <div class="black"></div>
+      <div class="white2"></div>
+      <div class="white"></div>
+      <div class="ear"></div>
+      <div class="ear2"></div>
+      <div class="ear3"></div>
+    </div></div>
+    <div class="name">my masterpiece</div>
+  </div>
+  <!-- Write your HTML here -->
+</body>
+
+</html>
